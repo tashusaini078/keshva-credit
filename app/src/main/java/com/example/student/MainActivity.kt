@@ -1,4 +1,4 @@
-package com.example.student
+ package com.example.student
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -33,7 +33,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
-        text = "Hello $name!",
+        text = "Hello my name is  $name!",
         modifier = modifier
     )
 }
